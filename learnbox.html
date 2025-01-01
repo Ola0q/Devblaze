@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+      <style>
+
+        .sub-button 
+        { 
+        background-color: rgb(202, 4, 4);
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-style: solid;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: opacity 0.15s;
+        }
+
+        .sub-button:hover,
+        .sub-button:active
+        {
+        opacity: 0.5;
+        }
+        
+        /* 
+        hover is a psuedo class
+          pseudo class is a keyword added to a selector 
+          that allows you to style an element based on its
+          current state 
+          
+          Some common HTML pseudo-classes include: :link, 
+          :visited, :hover, :active, :focus, :first-child, 
+          :last-child, :only-child, :nth-child, :nth-of-type,
+          :disabled, :enabled, :checked, :indeterminate, 
+          :target, :valid, :invalid, :placeholder-shown, 
+          :empty, :not, :lang, :root, :focus-within, 
+          :focus-visible, :user-invalid, :user-valid, 
+          :default, :read-only, :read-write, :in-range, 
+          :out-of-range, :autofill;
+          */
+
+        .join-button
+        {
+        background-color: white;
+        padding: 10px 20px;
+        margin-left: 5px;
+        border-color: rgb(23, 130, 230);
+        border-style: solid;
+        border-width: 1px;
+        color: rgb(23, 130, 230);
+        cursor: pointer;
+        }
+
+        
+        .join-button:hover
+        {
+        background: rgb(23, 130, 230);
+        color: white;
+        }
+
+        .tweet-button
+        {
+        background-color: rgb(23, 130, 230);
+        border-style: solid;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+        ;
+        color: white;
+        margin-left: 5px;
+        padding: 10px 20px;
+        border-radius: 20px;
+        }
+
+      </style>
+  </head>
+
+  <body>
+    <button class="sub-button">
+      SUBSCRIBE
+    </button>
+    <button class="join-button">
+      JOIN
+    </button>
+    <button class="tweet-button">
+      Tweet
+    </button>
+  </body>
+</html>
