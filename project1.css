@@ -1,0 +1,17 @@
+.G {
+  background-color: green;
+}
+.R {
+  background-color: red;
+}
+.B {
+  background-color: blue;
+}
+.RD {
+
+}
+button {
+  border-radius: 5px;
+  padding: 5px 10px;
+  border-style: solid;
+}
